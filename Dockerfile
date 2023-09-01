@@ -8,4 +8,4 @@ COPY app.py .
 
 EXPOSE 5000 
 
-CMD Python start
+ENTRYPOINT ["python", "app.py"]
